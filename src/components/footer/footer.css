@@ -1,0 +1,26 @@
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    transition: 0.3s ease-in-out;
+  
+    &:hover {
+      color: #e6e6e6;
+    }
+  }
+  
